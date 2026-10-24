@@ -1,0 +1,80 @@
+*{box-sizing:border-box}body{margin:0;font:15px/1.65 'Segoe UI',Arial,sans-serif;color:#20392f;background:#e9eee9}a{color:var(--brand,#146b52)}.document-toolbar{max-width:1020px;margin:20px auto;display:flex;gap:24px;align-items:center;padding:0 20px;font-size:13px;flex-wrap:wrap}.proposal-paper{background:white;max-width:1020px;margin:20px auto;box-shadow:0 16px 80px #1c3b2c13}.cover{padding:48px 55px;min-height:1050px;display:flex;flex-direction:column;position:relative;overflow:hidden;background:#eff5ec}.cover-top{display:flex;align-items:center;gap:15px;z-index:1}.cover-top>strong{font-size:20px;max-width:45%}.cover-top>span{margin-left:auto;font-size:10px;letter-spacing:2px}.brand-symbol{font-size:35px;color:var(--brand)}.company-logo{max-width:140px;max-height:75px;object-fit:contain}.cover-body{margin:auto 0;position:relative;z-index:1}.eyebrow{font-size:10px;letter-spacing:3px;color:var(--brand);font-weight:700}.cover h1{font-size:70px;line-height:1.1;letter-spacing:-3px;font-weight:500;margin:25px 0 40px;color:var(--brand)}.cover-body>p{font-size:15px;margin:0}.cover h2{font-size:30px;font-weight:500;max-width:80%;line-height:1.3;overflow-wrap:anywhere}.cover-kpis{display:flex;gap:35px;margin-top:38px}.cover-kpis .metric{background:#ffffffc9;border-color:#fff}.cover-bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:25px;z-index:1;font-size:11px;border-top:1px solid #bfcfbf;padding-top:20px}.cover-bottom span{display:block;margin-top:7px}.cover-bottom>b{font-size:9px;letter-spacing:1px}.cover-art{position:absolute;right:-110px;top:180px;width:500px;height:650px;opacity:.18;transform:rotate(-18deg)}.cover-sun{border-radius:50%;width:300px;height:300px;background:#e1b94e;margin-left:80px}.solar-panels{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;transform:skewY(-12deg);margin-top:-50px}.solar-panels i{height:130px;background:repeating-linear-gradient(90deg,#1b4f43 0 28px,#a9c7b8 29px 30px);border:5px solid #0f3b31}.document-content{padding:45px 55px}.doc-alert,.pending-box{background:#fff6e6;border:1px solid #e8dabb;padding:17px 22px;font-size:12px;color:#80652a;border-radius:6px}.proposal-section{padding:40px 0;border-bottom:1px solid #e2e9df}.section-number{font-size:9px;letter-spacing:2px;color:var(--brand);font-weight:700}.proposal-section h2{font-size:33px;line-height:1.2;font-weight:500;letter-spacing:-1px;margin:15px 0 30px;color:var(--brand)}h3{font-size:18px;margin:26px 0 14px;line-height:1.4}h4{margin:0 0 12px}.prose{white-space:pre-line;overflow-wrap:anywhere}.contact-card{background:#f3f6f0;padding:22px;font-size:13px;margin:26px 0;border-left:3px solid var(--brand)}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:30px}.value-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.value-cards article{padding:22px;background:#f3f6f0;border-radius:5px}.value-cards h3{margin-top:0}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:25px 0}.metric{padding:20px;background:#f3f6f0;border:1px solid #e6ecdf;border-radius:5px;min-width:0}.metric small{font-size:10px;color:#60705e;display:block;margin-bottom:9px}.metric strong{font-size:20px;font-weight:550;line-height:1.35;display:block;overflow-wrap:anywhere}.caption{font-size:11px;color:#657563;line-height:1.7}.investment{background:var(--brand);color:white;padding:35px;border-radius:7px;margin:24px 0}.investment span,.investment small{display:block;font-size:12px}.investment strong{font-size:45px;display:block;line-height:1.7}.table-container{overflow-x:auto;margin:20px 0}table{border-collapse:collapse;width:100%;font-size:11px;line-height:1.5}th{text-align:left;font-size:10px;background:#eef3e9;color:#5b705a}th,td{padding:12px 8px;border-bottom:1px solid #e2e9df;vertical-align:top}td small{display:block;font-size:9px;color:#667b65}tr:nth-child(even) td{background:#fafbf8}.month-chart{height:240px;display:grid;grid-template-columns:repeat(12,1fr);gap:12px;padding:20px 0 0}.month-column{display:flex;flex-direction:column;align-items:center;font-size:10px}.bars{height:180px;width:100%;display:flex;align-items:flex-end;justify-content:center;gap:3px;border-bottom:1px solid #bdcdbc}.bars i{display:block;width:38%;background:#aebda4;border-radius:3px 3px 0 0;min-height:1px}.bars .generated{background:var(--brand)}.month-column span{margin-top:10px}.legend{display:flex;gap:25px;justify-content:center;font-size:11px}.legend span:first-child{color:#819574}.legend span:last-child{color:var(--brand)}.document-footer{padding-top:35px;font-size:10px;color:#758471}.document-fingerprint{overflow-wrap:anywhere;font-size:8px}.signature-lines{display:flex;justify-content:space-between;gap:35px;margin:60px 0 30px}.signature-lines span{border-top:1px solid #879b85;width:45%;padding-top:10px;font-size:11px}details{margin:22px 0}summary{cursor:pointer;color:var(--brand);font-weight:600}li{margin-bottom:8px}input{font:inherit}h2,h3,th{break-after:avoid}tr,.metric,.doc-alert,.contact-card{break-inside:avoid}.reading-form{max-width:1020px;margin:25px auto;background:white;padding:30px}.reading-form input{padding:10px;border:1px solid #bbcbbb;max-width:100%}.reading-form button{background:var(--brand,#146b52);color:white;border:0;border-radius:5px;padding:13px 20px;cursor:pointer}.reading-form label{display:block;margin:12px 0}.reading-form .check{display:flex;gap:8px}.reading-form p{font-size:12px}.reading-form h2{font-size:21px}
+@media(max-width:650px){body{font-size:14px}.proposal-paper{margin:0}.cover{padding:28px 24px;min-height:780px}.cover-top>span{display:none}.cover h1{font-size:48px}.cover h2{font-size:23px;max-width:100%}.cover-body{margin:80px 0}.cover-kpis{flex-direction:column;gap:10px}.cover-bottom{align-items:flex-start;flex-direction:column}.cover-art{right:-250px;opacity:.12}.document-content{padding:25px 22px}.proposal-section h2{font-size:28px}.metrics{grid-template-columns:1fr 1fr}.metric{padding:14px}.metric strong{font-size:17px}.two-col,.value-cards{grid-template-columns:1fr}.month-chart{gap:4px}.month-column{font-size:8px}.investment{padding:25px}.investment strong{font-size:34px}.company-logo{max-width:90px}.cover-top>strong{max-width:70%}.reading-form{margin:20px 0;padding:22px}}
+@page{size:A4;margin:15mm 13mm}@media print{body{background:white;font-size:10pt;line-height:1.5}.document-toolbar,.reading-form{display:none}.proposal-paper{margin:0;max-width:none;box-shadow:none}.cover{min-height:262mm;padding:12mm 10mm;break-after:page;print-color-adjust:exact}.cover h1{font-size:49pt}.cover h2{font-size:23pt}.cover-body{margin:auto 0}.cover-top>span{display:block}.cover-top>strong{font-size:15pt}.cover-bottom{font-size:8pt}.document-content{padding:0}.proposal-section{break-before:page;border:0;padding:0}.proposal-section h2{font-size:26pt;margin:12pt 0 20pt}.section-number{font-size:7pt}h3{font-size:13pt;margin:18pt 0 10pt}.metrics{gap:9pt;grid-template-columns:repeat(3,1fr)}.metric{padding:13pt}.metric strong{font-size:16pt}.metric small{font-size:8pt}.value-cards{grid-template-columns:repeat(3,1fr)}.two-col{grid-template-columns:1fr 1fr}table{font-size:8pt;width:100%;table-layout:fixed;overflow-wrap:anywhere}th{font-size:7pt}th,td{padding:8pt 4pt}.table-container{overflow:visible}thead{display:table-header-group}.month-chart{height:180pt;gap:8pt}.bars{height:140pt}.month-column{font-size:8pt}details:not([open])>table,details:not([open])>.table-container{display:none}.doc-alert,.metric,.investment,th,tr:nth-child(even) td,.value-cards article,.contact-card,.bars i{print-color-adjust:exact}.document-footer{font-size:8pt}.caption{font-size:8pt}.signature-lines{margin-top:45pt}.cover-kpis{flex-direction:row}.doc-alert{font-size:9pt}.cover-bottom{flex-direction:row}.cover-art{opacity:.18;right:-110px}}
+
+.financial-chart{display:block;width:100%;height:auto;margin:25px 0;font:11px Segoe UI,Arial,sans-serif}.financial-chart text{fill:#667963}@media print{#section-1{break-before:auto}.financial-chart{max-height:62mm;break-inside:avoid}#section-9 table{font-size:7pt}#section-9 th,#section-9 td{padding:7pt 3pt}.document-footer{break-inside:avoid}}
+
+/* Compact print groups: institutional, project, generation/materials,
+   commercial/economy, return, comparisons/environment, conditions/conclusion.
+   Long content remains free to continue on subsequent pages. */
+@media print{
+  @page{margin:12mm 13mm}
+  body{font-size:9.5pt;line-height:1.4}
+  .cover{min-height:270mm}
+  .proposal-section{break-before:auto;padding:13pt 0 5pt;border-bottom:1px solid #e2e9df}
+  #section-1{padding-top:10pt}
+  #section-3,#section-5,#section-7,#section-9,#section-10,#section-12{break-before:page;padding-top:0}
+  .section-number{font-size:6.5pt;break-after:avoid}
+  .proposal-section h2{font-size:21pt;margin:7pt 0 12pt}
+  h3{font-size:11.5pt;margin:12pt 0 7pt}
+  h4{font-size:10pt;margin:0 0 6pt}
+  p{margin:7pt 0;orphans:3;widows:3}
+  li{margin-bottom:4pt}
+  ul{padding-left:16pt;margin:7pt 0}
+  .metrics{gap:7pt;margin:12pt 0}
+  .metric{padding:9pt}
+  .metric small{font-size:7.5pt;margin-bottom:5pt}
+  .metric strong{font-size:13pt}
+  .contact-card{padding:12pt;margin:12pt 0;font-size:9pt}
+  .two-col{gap:18pt}
+  .value-cards{gap:10pt}
+  .value-cards article{padding:12pt}
+  .value-cards article h3{margin-top:0}
+  .table-container{margin:12pt 0}
+  table{font-size:8pt;line-height:1.35}
+  th,td{padding:5pt 4pt}
+  .month-chart{height:132pt;padding-top:8pt}
+  .bars{height:105pt}
+  .month-column span{margin-top:6pt}
+  .legend{margin:4pt 0 8pt}
+  .investment{padding:17pt 22pt;margin:12pt 0}
+  .investment strong{font-size:30pt;line-height:1.5}
+  .investment span,.investment small{font-size:9pt}
+  .doc-alert,.pending-box{padding:10pt 13pt;font-size:8pt}
+  .caption{font-size:7.5pt;line-height:1.4}
+  .financial-chart{margin:12pt 0;max-height:47mm}
+  #section-9 table{font-size:7.5pt}
+  #section-9 th,#section-9 td{padding:2.25pt 3pt}
+  #section-10 th,#section-10 td{font-size:7.5pt;padding:2.5pt 4pt}
+  #section-11>.metric{max-width:60%;padding:10pt 14pt}
+  .signature-lines{margin:28pt 0 16pt}
+  .document-footer{padding-top:14pt;font-size:7pt}
+  .document-footer p{margin:4pt 0}
+  .document-fingerprint{font-size:6.5pt}
+  #section-7 .investment{padding:12pt 18pt;margin:9pt 0}
+  #section-7 h3{margin:8pt 0 5pt}
+  #section-7 li{font-size:8pt;line-height:1.35;margin-bottom:3pt}
+  #section-7 .metrics{margin:9pt 0}
+  #section-8 .metrics{grid-template-columns:repeat(4,1fr)}
+  #section-8 .metric{padding:8pt}
+  #section-8 .metric strong{font-size:11pt}
+  #section-8>.prose{font-size:8pt;line-height:1.35}
+  #section-8 th,#section-8 td{font-size:7.5pt;padding:1.5pt 4pt}
+  #section-8 h2{margin-bottom:8pt}
+  #section-8 .metrics{margin:9pt 0}
+  #section-8{padding-top:8pt;padding-bottom:0}
+  #section-8 .table-container{margin:6pt 0}
+  #section-8 h3{margin:8pt 0 5pt}
+  #section-8>.caption{font-size:7pt;line-height:1.3;margin:4pt 0;orphans:2;widows:2}
+  #section-7>.caption{margin:4pt 0}
+  #section-11{padding-top:8pt}
+  #section-11 h2{font-size:18pt;margin:5pt 0 8pt}
+  #section-11>.prose{font-size:8.5pt}
+  #section-12,#section-13{font-size:9pt;line-height:1.35}
+  #section-12 h2,#section-13 h2{font-size:19pt;margin:6pt 0 10pt}
+  #section-12 h3,#section-13 h3{font-size:10.5pt;margin:9pt 0 5pt}
+  #section-12 p,#section-13 p{margin:5pt 0}
+  #section-13 .metrics{margin:9pt 0}
+  #section-13 .metric{padding:8pt}
+  #section-13 .signature-lines{margin:20pt 0 12pt}
+}
